@@ -8,6 +8,19 @@ public class Product {
     public Product() {
 
     }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public Product(Long id, String name, double price) {
         this.id = id;
         this.name = name;
